@@ -1,16 +1,32 @@
-# React + Vite
+# 🎨 Color & Background Changer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive React project that allows users to dynamically change background and text colors by clicking different color buttons. Built to practice React state management and event handling with Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Multiple color options.
+- Dynamic background and text color changes.
+- Click-based color switching.
+- Smooth CSS transitions.
+- Responsive layout.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📚 What I Learned
+- Understanding React's `useState` hook.
+- Managing multiple state variables.
+- Updating state using `setState` functions.
+- Handling click events with `onClick`.
+- Understanding how state changes trigger component re-renders.
+- Using inline styles with dynamic state values.
+- Styling components using Tailwind CSS.
 
-## React Compiler
+## 🛠️ Tech Stack
+- React.js
+- JavaScript
+- Tailwind CSS
+- Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ▶️ Run Locally
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
